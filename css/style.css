@@ -1,10 +1,12 @@
+
+
 /* Start font */
 @import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
 /* End font */
 
 /* start body*/
 body {
-    background-color: whitesmoke ;
+    background-color: white ;
     font-family: barriecito, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     line-height: 1.0em;
@@ -18,7 +20,7 @@ body {
     background-color: brown
 }
 .bg-green{
-    background-color: green 
+    background-color: green;
 }
 /* End Debug */
 
@@ -26,12 +28,20 @@ body {
 .container{
     
     margin: 10px auto;
-    overflow: auto;
+    /* overflow: auto; */
     width: 90%;
 }
 /* End  container */
 
 /* Start Logo */
+.header-inner {
+    background-position: center !important;
+    width: 100% !important;
+    text-align: center;
+     }
+.header-inner img {
+    margin: auto;
+    }
 .logo {
     text-align: center;
 }
@@ -60,13 +70,13 @@ a:active{
 }
 
 .menu-primer li{
-    border-right: 1px solid #F56358;
+    border-right: 1px solid #404040;
     display: inline-block;
     margin: 0 -4px;
 }
 
 .menu-primer a{
-    color:#F56358;
+    color:#404040;
     font-size: 14px;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -118,7 +128,7 @@ h6{
 
 /* Start Jumbotron */
 .jumbotron {
-    background-color: #BAF2E8;
+    background-color: whitesmoke (186, 242, 232, 0.603);
     border: 1px solid burlywood;
     border-radius: 4px;
     padding: 20px 0;
@@ -133,15 +143,272 @@ h6{
     padding:0 30px;
 }
 /* End Jumbotron */
+
+
+
+/* Start little snippet */
+/* Star Gambar */
+.gambar-1{
+    float: left;
+    width: 33.3%
+}
+.gambar-2{
+    float: left;
+    width: 33.3%
+}
+.gambar-3{
+    float: left;
+    width: 33.3%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+.snip1572 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.snip1572 *,
+.snip1572:before,
+.snip1572:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1572 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1572:before,
+.snip1572:after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.snip1572:before {
+  width: 300px;
+  height: 2px;
+}
+
+.snip1572:after {
+  height: 300px;
+  width: 2px;
+}
+
+.snip1572 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.snip1572 h3 {
+  font-weight: 400;
+  padding: 8px 15px;
+  margin: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1572 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1572:hover img,
+.snip1572.hover img {
+  zoom: 1;
+  filter: alpha(opacity=25);
+  -webkit-opacity: 0.25;
+  opacity: 0.25;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before,
+.snip1572:hover:after,
+.snip1572.hover:after {
+  opacity: 1;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before {
+  width: 50px;
+}
+
+.snip1572:hover:after,
+.snip1572.hover:after {
+  height: 50px;
+}
+
+.snip1572:hover h3,
+.snip1572.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+/* End little snippet */
 /* Start Box */
+.box-table {
+    margin: 50px auto;
+    width: 100%
+}
 
 /* End Box */
 
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+
+/* start table */
+.table-style{
+    border: 1px solid whitesmoke;
+    margin: auto;
+    width: 45%;
+}
+.table-style th{
+    background-color: #F7FFEB;
+}
+.table-style td{
+    text-align: center;
+}
+/* End table */
+
 /* Start menu sekunder */
 .menu-sekunder {
-    background-color: grey;
-    border-bottom: 1px solid brown;
-    border-top: 1px solid brown;
+    background-color: #F7FFEB;
+    border-bottom: 1px solid whitesmoke ;
+    border-top: 1px solid whitesmoke;
     overflow: auto;
     padding: 10px 0;
 }
@@ -184,3 +451,4 @@ h6{
     font-size: 15px
 }
 /* End copyright */
+
